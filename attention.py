@@ -3,9 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 
-class CrossAttention(nn.Module):
-    def__init__(self,embed_dim:int):
-        super().__init__()
+
         
 
 class SelfAttention(nn.Module):
